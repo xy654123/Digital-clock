@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디지털 시계</title>
+    <style>
+        html.body{
+            margin:-0;
+        }
+        .container{
+            text-align: center;
+        }
+        .clock{
+            width: 200px;
+            margin: 5px auto;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <button id="go">GO</button>
+    <button id="stop">STOP</button>
+    <div class="clock">
+        <h1 id="time"></h1>
+        <h3 id="ddd"></h3>
+    </div>
+    <button id="backcolor">배경색</button>
+    <button id="textcolor">글자색</button>
+</div>
+<script src="clock.js"></script>
+</body>
+</html>
